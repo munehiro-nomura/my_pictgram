@@ -1,0 +1,15 @@
+current directory: /Users/nomuramunehiro/pictgram/vendor/bundle/ruby/2.4.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/nomuramunehiro/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20200220-66409-1lx1zjd.rb extconf.rb
+creating Makefile
+
+current directory: /Users/nomuramunehiro/pictgram/vendor/bundle/ruby/2.4.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/nomuramunehiro/pictgram/vendor/bundle/ruby/2.4.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/nomuramunehiro/pictgram/vendor/bundle/ruby/2.4.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20200220-66409-1b3mo43/skiptrace/internal
