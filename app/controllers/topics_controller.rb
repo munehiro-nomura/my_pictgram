@@ -22,4 +22,8 @@ class TopicsController < ApplicationController
   def topic_params
     params.require(:topic).permit(:image, :description)
   end
+
+  def logged_in?
+    !current_user.nil?
+  end
 end
